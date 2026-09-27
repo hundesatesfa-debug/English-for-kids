@@ -1,0 +1,9 @@
+<TransitionModel>
+<Topology>
+<TopologyEntry>
+<ForSymbol> 1 </ForSymbol>
+<State> 0 <ForwardPdf> 0 <Transition> 0 0.75 <Transition> 1 0.25 </State>
+<State> 1 </State>
+</TopologyEntry>
+</Topology>
+</TransitionModel>

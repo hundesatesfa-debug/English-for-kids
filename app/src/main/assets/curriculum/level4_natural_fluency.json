@@ -1,0 +1,114 @@
+{
+  "lesson_id": "lesson_oromo_level4_natural_fluency",
+  "target_level": "Level 4",
+  "topic": "Natural Fluency & Story Narration (Ethiopian Culture & Lakes)",
+  "learning_objective": "Achieve spoken fluency with connected speech, clear intonation, and native-like flow while narrating stories about Lake Hora, Odaa trees, and community celebrations.",
+  "offline_assets_required": {
+    "local_audio_prompts": [
+      "audio_intro_oromo_l4.mp3",
+      "audio_sun_shines_lake.mp3",
+      "audio_we_celebrate_together.mp3",
+      "audio_the_green_odaa_tree.mp3"
+    ],
+    "local_images": [
+      "img_lake_harsadi.png",
+      "img_odaa_tree.png"
+    ]
+  },
+  "afaan_oromoo_intro_script": "Sadarkaa 4ffaa - Qaxalee Fluency! Now speak in English with full sentences, clear rhythm, and natural speed. You are ready!",
+  "target_phoneme_focus": [
+    "Connected_Speech",
+    "/ð/",
+    "/ʃ/",
+    "Intonation"
+  ],
+  "voice_exercises": [
+    {
+      "exercise_id": "l4_ex_01_lake_narration",
+      "exercise_type": "picture_narration",
+      "app_character_audio_script": "Describe the beautiful lake in Bishoftu.",
+      "afaan_oromoo_instruction_script": "Fakkii ilaaliitii hima kanaan ibsi: 'The morning sun shines over the lake.'",
+      "expected_speech_target": "The morning sun shines over the lake.",
+      "asr_keywords_required": [
+        "morning",
+        "sun",
+        "shines",
+        "lake"
+      ],
+      "phonetic_guide_for_kids": "The MOR-NING SUN SHAINZ OH-VER the LEIK",
+      "trouble_phonemes": [
+        {
+          "phoneme": "Connected_Speech",
+          "afaan_oromoo_tip": "Jechoota walitti hidhiitii sagalee bareedina qabuun dubbadhu: 'shines over the lake'."
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "l4_ex_02_odaa_cultural",
+      "exercise_type": "repeat_after_me",
+      "app_character_audio_script": "The great Odaa tree brings our people peace.",
+      "afaan_oromoo_instruction_script": "Hima kana ofitti amanammummaan dubbadhu: 'The great Odaa tree brings our people peace.'",
+      "expected_speech_target": "The great Odaa tree brings our people peace.",
+      "asr_keywords_required": [
+        "odaa",
+        "tree",
+        "people",
+        "peace"
+      ],
+      "phonetic_guide_for_kids": "The GREIT OH-DAA TREE BRINGZ AWA PEE-PUL PEES",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/p/",
+          "afaan_oromoo_tip": "Jechoota 'people' fi 'peace' yommuu dubbattu /p/ qulqullinaan dubbadhu!"
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "l4_ex_03_community_story",
+      "exercise_type": "sentence_completion",
+      "app_character_audio_script": "We sing, we dance, and we celebrate together.",
+      "afaan_oromoo_instruction_script": "Waliin gammaduufi sirbuu keenya ibsi: 'We sing, we dance, and we celebrate together.'",
+      "expected_speech_target": "We sing we dance and we celebrate together.",
+      "asr_keywords_required": [
+        "sing",
+        "dance",
+        "celebrate",
+        "together"
+      ],
+      "phonetic_guide_for_kids": "WEE SING WEE DANS AND WEE SEL-E-BREIT TU-GEDH-ER",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/ð/",
+          "afaan_oromoo_tip": "'Together' keessatti arraba kee ilkaan jala kaa'i: /ð/!"
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "lesson_id": "lesson_oromo_level3_active_conversation",
+  "target_level": "Level 3",
+  "topic": "Active Conversations & Sentence Structure (SVO vs SOV)",
+  "learning_objective": "Practice interactive conversational responses and switch smoothly from Afaan Oromoo SOV (Subject-Object-Verb) word order to English SVO (Subject-Verb-Object) while accurately using pronouns He/She/They.",
+  "offline_assets_required": {
+    "local_audio_prompts": [
+      "audio_intro_oromo_l3.mp3",
+      "audio_she_reads_a_book.mp3",
+      "audio_they_play_together.mp3",
+      "audio_he_went_to_market.mp3"
+    ],
+    "local_images": [
+      "img_school_friends.png",
+      "img_market_scene.png"
+    ]
+  },
+  "afaan_oromoo_intro_script": "Sadarkaa 3ffaatti baga nagaan dhuftan! Afaan Oromoo keessatti gochimni dhuma himaa irratti dhufa (Fkn: 'Inni kitaaba dubbisa'). Ingiliffa keessatti garuu gochimni gidduu gala: 'He reads a book'. Kana shaakallaa!",
+  "target_phoneme_focus": [
+    "/ʃ/",
+    "/ð/",
+    "/z/",
+    "SVO_Structure"
+  ],
+  "voice_exercises": [
+    {
+      "exercise_id": "l3_ex_01_svo_pronouns",
+      "exercise_type": "roleplay_response",
+      "app_character_audio_script": "What is Caaltuu doing?",
+      "afaan_oromoo_instruction_script": "Caaltuun maal gochaa jirti? Ingiliffaan 'Isheen kitaaba dubbisa' jechuuf: 'She reads a book' jedhii deebisi.",
+      "expected_speech_target": "She reads a book.",
+      "asr_keywords_required": [
+        "she",
+        "reads",
+        "book"
+      ],
+      "phonetic_guide_for_kids": "SHEE REEDZ a BUK",
+      "trouble_phonemes": [
+        {
+          "phoneme": "SVO_order",
+          "afaan_oromoo_tip": "Hubadhu: 'She a book reads' hin jedhinaa! Gochima (reads) gidduu kaa'i: 'She reads a book'!"
+        },
+        {
+          "phoneme": "/ʃ/",
+          "afaan_oromoo_tip": "Qubee 'Sh' akka 'Shoo' jedhutti qilleensa baasi: /ʃ/."
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "l3_ex_02_plural_pronoun",
+      "exercise_type": "repeat_after_me",
+      "app_character_audio_script": "They play happy games.",
+      "afaan_oromoo_instruction_script": "'Isaan' jechuuf 'They' fayyadami. Arraba ilkaan jala kaa'ii 'They' jedhi.",
+      "expected_speech_target": "They play happy games.",
+      "asr_keywords_required": [
+        "they",
+        "play",
+        "games"
+      ],
+      "phonetic_guide_for_kids": "DH-EI PLEI HAP-EE GEIMZ",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/ð/",
+          "afaan_oromoo_tip": "'Dei' hin jedhin, kokkeen akka hollatu 'They' jedhii arraba ilkaan gidduu baasi."
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "l3_ex_03_market_dialogue",
+      "exercise_type": "roleplay_response",
+      "app_character_audio_script": "Where is the farmer going?",
+      "afaan_oromoo_instruction_script": "Qotee bulaan eessa deemaa jira? Deebii kenni: 'He walks to the market.'",
+      "expected_speech_target": "He walks to the market.",
+      "asr_keywords_required": [
+        "walks",
+        "market"
+      ],
+      "phonetic_guide_for_kids": "HEE WOKS tu the MAR-KET",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/w/",
+          "afaan_oromoo_tip": "Hidhii kee akka geengoo godhii 'Walks' jedhi, akka /v/ hin ta'in."
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    }
+  ]
+}

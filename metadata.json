@@ -1,0 +1,6 @@
+{
+  "name": "SpeakEng Kids",
+  "description": "Gamified English learning app for Ethiopian children ages 5-12 targeting Afaan Oromoo speakers with Qubee phonics, reading, speaking, listening, and offline practice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

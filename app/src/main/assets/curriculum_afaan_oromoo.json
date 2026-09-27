@@ -1,0 +1,150 @@
+{
+  "lesson_id": "lesson_oromo_esl_01",
+  "target_level": "Level 1",
+  "topic": "Greetings, Self-Introduction & Sound Master (TH, P vs B)",
+  "learning_objective": "Enable Afaan Oromoo children to introduce themselves using Subject-Verb-Object (SVO) sentence structures while mastering the unvoiced dental fricative /θ/ and distinguishing voiceless /p/ from voiced /b/ in everyday speech.",
+  "offline_assets_required": {
+    "local_audio_prompts": [
+      "audio_intro_oromo_l1.mp3",
+      "audio_char_this_is_pen.mp3",
+      "audio_char_i_see_three_birds.mp3",
+      "audio_char_pat_the_cat.mp3",
+      "audio_char_my_name_is.mp3",
+      "audio_praise_high.mp3",
+      "audio_praise_med.mp3",
+      "audio_retry.mp3"
+    ],
+    "local_images": [
+      "img_pencil_mascot.png",
+      "img_three_birds.png",
+      "img_caaltuu_greeting.png"
+    ]
+  },
+  "afaan_oromoo_intro_script": "Akkam bultani ijoollee jaallatamoo! Har'a Barsiisaa Caalaa wajjin sagaleewwan haaraa Afaan Ingilizii kan akka 'TH' fi 'P' akkasumas himoota gaggabaaboo of baruuf gargaaran shaakaluuf jirra. Qophooftanii? Gurra keessan naaf kennaa!",
+  "target_phoneme_focus": [
+    "/θ/",
+    "/ð/",
+    "/p/",
+    "/b/",
+    "/v/"
+  ],
+  "voice_exercises": [
+    {
+      "exercise_id": "ex_01_th_sound",
+      "exercise_type": "repeat_after_me",
+      "app_character_audio_script": "This is my pen.",
+      "afaan_oromoo_instruction_script": "Barsiisaa Caalaa dhaggeeffadhaa. Arraba kee ilkaan gidduu muraasa baasiitii 'This' jedhii duukaa deebisi: 'This is my pen.'",
+      "expected_speech_target": "This is my pen.",
+      "asr_keywords_required": [
+        "this",
+        "pen"
+      ],
+      "phonetic_guide_for_kids": "DH-is iz mai PEN",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/ð/",
+          "afaan_oromoo_tip": "Arraba kee ilkaan kee jala kaa'i. 'Dis' ykn 'Zis' hin jedhinaa, kokkeen kee akka hollatu godhii 'This' jedhi!"
+        },
+        {
+          "phoneme": "/p/",
+          "afaan_oromoo_tip": "Hidhii kee lamaan cufii qilleensa dhoosi: 'P-P-Pen'. Akka 'Ben' jedhutti hin dubbisinaa!"
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "ex_02_three_birds",
+      "exercise_type": "repeat_after_me",
+      "app_character_audio_script": "I see three birds.",
+      "afaan_oromoo_instruction_script": "Amma immoo fakkii simbirootaa ilaalaa. Sagalee 'TH' laafaa fayyadamuudhaan duukaa jedhaa: 'I see three birds.'",
+      "expected_speech_target": "I see three birds.",
+      "asr_keywords_required": [
+        "three",
+        "birds"
+      ],
+      "phonetic_guide_for_kids": "Ai see TH-ree burdz",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/θ/",
+          "afaan_oromoo_tip": "Arraba kee ilkaan gubbaafi gadii gidduu muraasa baasiiti qilleensa qofa baasi. 'Tree' jechuu irraa of eeggadhu, 'Three' jedhi!"
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "ex_03_pat_the_cat",
+      "exercise_type": "repeat_after_me",
+      "app_character_audio_script": "Pat the cute cat.",
+      "afaan_oromoo_instruction_script": "Hidhii kee dhiibitee qilleensa baasuun 'Pat' jedhi. Adurree sana qaqqabna: 'Pat the cute cat.'",
+      "expected_speech_target": "Pat the cute cat.",
+      "asr_keywords_required": [
+        "pat",
+        "cat"
+      ],
+      "phonetic_guide_for_kids": "PAT th-uh kyoot KAT",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/p/",
+          "afaan_oromoo_tip": "'P' yeroo jettu qilleensi harka kee dura yoo keesse akka si rukutu ta'uu qaba. 'Bat' irraa adda baasi!"
+        },
+        {
+          "phoneme": "/k/",
+          "afaan_oromoo_tip": "Qubee 'C' akka Afaan Oromoo 'Caaltuu' miti; Afaan Ingilizii keessatti akka 'K' laafaatti sagaleessi: 'Cat'!"
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "ex_04_self_intro",
+      "exercise_type": "sentence_completion",
+      "app_character_audio_script": "Hello! My name is Caaltuu. What is your name?",
+      "afaan_oromoo_instruction_script": "Caaltuun of ibsaa jirti. Maqaa kee itti dabaltee: 'My name is...' jedhii maaykiroofoonitti dubbadhu!",
+      "expected_speech_target": "My name is",
+      "asr_keywords_required": [
+        "my",
+        "name",
+        "is"
+      ],
+      "phonetic_guide_for_kids": "Mai NEIM iz [maqaa kee]",
+      "trouble_phonemes": [
+        {
+          "phoneme": "SVO Order",
+          "afaan_oromoo_tip": "Afaan Oromoo keessatti 'Maqaan koo Caaltuudha' (Maqaa + dha) jenna. Afaan Ingilizii keessatti garuu 'My name is...' jedhama. 'Is' dursee dhufa!"
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    }
+  ]
+}

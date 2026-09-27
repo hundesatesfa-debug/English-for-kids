@@ -1,0 +1,112 @@
+{
+  "lesson_id": "lesson_oromo_level1_foundations",
+  "target_level": "Level 1",
+  "topic": "Foundations & Sound Master (TH, P vs B)",
+  "learning_objective": "Master basic high-frequency English words and short 2-3 word phrases. Target the dental fricatives /θ/, /ð/ and voiceless /p/ vs voiced /b/.",
+  "offline_assets_required": {
+    "local_audio_prompts": [
+      "audio_intro_oromo_l1.mp3",
+      "audio_this_is_pen.mp3",
+      "audio_pat_the_cat.mp3",
+      "audio_three_big_birds.mp3"
+    ],
+    "local_images": [
+      "img_mascot_caalaa.png",
+      "img_pen_cat.png"
+    ]
+  },
+  "afaan_oromoo_intro_script": "Akkam bultani ijoollee jaallatamoo! Barsiisaa Caalaa wajjin sagalee 'TH' fi 'P' akkasumas himoota gaggabaaboo shaakallaa. Arraba keessan ilkaan jala kaa'aa!",
+  "target_phoneme_focus": [
+    "/θ/",
+    "/ð/",
+    "/p/",
+    "/b/"
+  ],
+  "voice_exercises": [
+    {
+      "exercise_id": "l1_ex_01_th_sound",
+      "exercise_type": "repeat_after_me",
+      "app_character_audio_script": "This is my pen.",
+      "afaan_oromoo_instruction_script": "Arraba kee ilkaan kee jala kaa'ii 'This' jedhi: 'This is my pen.'",
+      "expected_speech_target": "This is my pen.",
+      "asr_keywords_required": [
+        "this",
+        "pen"
+      ],
+      "phonetic_guide_for_kids": "DH-is iz mai PEN",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/ð/",
+          "afaan_oromoo_tip": "Arraba kee ilkaan kee jala kaa'i. 'Dis' ykn 'Tis' hin jedhin, kokkeen akka hollatu godhii 'This' jedhi!"
+        },
+        {
+          "phoneme": "/p/",
+          "afaan_oromoo_tip": "Hidhii lamaan cufii qilleensa dhoosi: 'P-P-Pen'. Akka 'Ben' hin ta'in!"
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "l1_ex_02_p_vs_b",
+      "exercise_type": "repeat_after_me",
+      "app_character_audio_script": "Pat the cat.",
+      "afaan_oromoo_instruction_script": "Jechoota 'Pat' fi 'Bat' adda baasi. 'Pat' yommuu jettu qilleensi afaan kee keessaa bahuu qaba.",
+      "expected_speech_target": "Pat the cat.",
+      "asr_keywords_required": [
+        "pat",
+        "cat"
+      ],
+      "phonetic_guide_for_kids": "P-AT the K-AT",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/p/",
+          "afaan_oromoo_tip": "Waraqaa afaan dura qabiitii 'Pat' jedhi; waraqichi raafamuu qaba. Sagalee /b/ irraa adda baasi!"
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "l1_ex_03_dental_three",
+      "exercise_type": "repeat_after_me",
+      "app_character_audio_script": "Three big birds.",
+      "afaan_oromoo_instruction_script": "Lakkoofsa sadii Ingiliffaan 'Three' jedhi. Arraba ilkaan jala kaa'i, 'Tree' (muka) akka hin jenne of eeggadhu.",
+      "expected_speech_target": "Three big birds.",
+      "asr_keywords_required": [
+        "three",
+        "birds"
+      ],
+      "phonetic_guide_for_kids": "TH-ree BIG B-ERDZ",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/θ/",
+          "afaan_oromoo_tip": "Arraba kee ilkaan kee jala kaa'i. Akka 'Tree' hin jenne, qilleensa qorraa baasi: /θ/!"
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    }
+  ]
+}

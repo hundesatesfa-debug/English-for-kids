@@ -1,0 +1,114 @@
+{
+  "lesson_id": "lesson_oromo_level2_building_blocks",
+  "target_level": "Level 2",
+  "topic": "Daily Routines & Labiodental Sounds (V vs F vs B)",
+  "learning_objective": "Practice full sentence repetitions for daily routines and feelings while mastering labiodental fricatives /v/ and /f/ and softening ejective stops /k/ and /t/.",
+  "offline_assets_required": {
+    "local_audio_prompts": [
+      "audio_intro_oromo_l2.mp3",
+      "audio_i_drive_a_van.mp3",
+      "audio_i_wash_my_face.mp3",
+      "audio_i_drink_warm_water.mp3"
+    ],
+    "local_images": [
+      "img_blue_van.png",
+      "img_morning_routine.png"
+    ]
+  },
+  "afaan_oromoo_intro_script": "Baga gara Sadarkaa Lammaffaatti dhuftan! Har'a sochiilee guyyaa guyyaa fi sagalee 'V' fi 'F' hidhii gubbaafi ilkaan fayyadamuun baranna. Jechoota laaffisnee dubbifna!",
+  "target_phoneme_focus": [
+    "/v/",
+    "/f/",
+    "/b/",
+    "/k/",
+    "/t/"
+  ],
+  "voice_exercises": [
+    {
+      "exercise_id": "l2_ex_01_v_vs_b",
+      "exercise_type": "repeat_after_me",
+      "app_character_audio_script": "I drive a blue van.",
+      "afaan_oromoo_instruction_script": "Ilkaan gubbaa hidhii jalaatti qabiitii 'Van' jedhi. Akka 'Ban' hin ta'in, sagaleen /v/ hollachuu qaba.",
+      "expected_speech_target": "I drive a blue van.",
+      "asr_keywords_required": [
+        "drive",
+        "van"
+      ],
+      "phonetic_guide_for_kids": "Ai DRAIV a BLOO V-AN",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/v/",
+          "afaan_oromoo_tip": "Ilkaan kee gubbaa hidhii kee gadii irra kaa'i: /v/. Afaan Oromoo keessatti /v/ waan hin jirreef akka /b/ hin jenne!"
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "l2_ex_02_ejective_softening",
+      "exercise_type": "repeat_after_me",
+      "app_character_audio_script": "I wash my clean face.",
+      "afaan_oromoo_instruction_script": "Sagalee 'k' fi 't' akka qubee Afaan Oromoo cimee dhohu (k', t') osoo hin taane laaffisaa dubbadhaa.",
+      "expected_speech_target": "I wash my clean face.",
+      "asr_keywords_required": [
+        "wash",
+        "clean",
+        "face"
+      ],
+      "phonetic_guide_for_kids": "Ai WASH mai KLEEN FEIS",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/k/",
+          "afaan_oromoo_tip": "Kokkee kee keessaa cimsitee hin dhoosin; Ingiliffa keessatti 'clean' sagalee laafaa qaba!"
+        },
+        {
+          "phoneme": "/f/",
+          "afaan_oromoo_tip": "Sagalee /f/ fi /p/ adda baasi: 'Face' malee 'Pace' miti."
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    },
+    {
+      "exercise_id": "l2_ex_03_routine_soak",
+      "exercise_type": "sentence_completion",
+      "app_character_audio_script": "I drink fresh milk.",
+      "afaan_oromoo_instruction_script": "Hima guuti: Ganama barii maal dhugda? 'I drink fresh milk' jedhii dubbadhu.",
+      "expected_speech_target": "I drink fresh milk.",
+      "asr_keywords_required": [
+        "drink",
+        "milk"
+      ],
+      "phonetic_guide_for_kids": "Ai DRINK FRESH MILK",
+      "trouble_phonemes": [
+        {
+          "phoneme": "/d/",
+          "afaan_oromoo_tip": "Sagalee /d/ akka 'dh' Afaan Oromoo hin dubbisin; arraba laaftuu godhi."
+        }
+      ],
+      "offline_scoring_thresholds": {
+        "pass_score": 60,
+        "star_score": 85
+      },
+      "feedback_local_audio_keys": {
+        "high_score_key": "audio_praise_high.mp3",
+        "medium_score_key": "audio_praise_med.mp3",
+        "retry_key": "audio_retry.mp3"
+      }
+    }
+  ]
+}
